@@ -1,0 +1,72 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.screen {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 560px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 { font-size: 2rem; margin-bottom: 12px; color: #2d2d2d; }
+h2 { font-size: 1.25rem; margin-bottom: 24px; color: #2d2d2d; line-height: 1.5; }
+
+.progress { color: #888; margin-bottom: 16px; font-size: 0.9rem; }
+
+.options { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+
+.option {
+  padding: 14px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: left;
+  transition: all 0.2s;
+  color: #2d2d2d; 
+}
+.option:hover { border-color: #667eea; background: #f0f0ff; }
+.option.selected { border-color: #667eea; background: #eef0ff; }
+.option.correct { border-color: #22c55e; background: #f0fdf4; color: #166534; }
+.option.wrong { border-color: #ef4444; background: #fef2f2; color: #991b1b; }
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.btn-primary:hover { opacity: 0.9; }
+.btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.score-circle {
+  width: 140px; height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex; align-items: center; justify-content: center;
+  margin: 24px auto;
+}
+.score-number { font-size: 2.2rem; font-weight: bold; color: white; }

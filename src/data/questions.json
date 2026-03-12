@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Hyper Transfer Markup Logic", "Home Tool Markup Language"],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "id": 2,
+    "question": "Which hook is used for side effects in React?",
+    "options": ["useState", "useEffect", "useRef", "useContext"],
+    "answer": "useEffect"
+  },
+  {
+    "id": 3,
+    "question": "What does CSS stand for?",
+    "options": ["Cascading Style Sheets", "Creative Style System", "Computer Style Sheets", "Colorful Style Syntax"],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": 4,
+    "question": "Which company created React?",
+    "options": ["Google", "Microsoft", "Meta", "Apple"],
+    "answer": "Meta"
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to declare a variable in modern JavaScript?",
+    "options": ["var x = 5", "let x = 5", "x := 5", "int x = 5"],
+    "answer": "let x = 5"
+  }
+]
